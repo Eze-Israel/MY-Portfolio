@@ -1,0 +1,131 @@
+.hero{
+   padding: 0 100px; 
+   width: 100%;
+   background-color: rgb(15, 15, 15);
+   opacity: 0.9;
+}
+.Fist-hero{
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    
+}
+.text-div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 0 100px;
+    
+}
+.welcome{
+    font-size: 100px;
+    color: rgb(197, 111, 111);
+    margin-bottom: 20px;
+}
+.text-alone{
+    text-align: center;
+    color: rgb(235, 244, 241);
+    font-size: xx-large;
+
+
+}
+
+.button{
+display: flex;
+justify-content: space-between;
+
+
+}
+.button2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero-btn{
+    padding: 10px 20px;
+    background-color: #A05;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    margin-bottom: 5px;
+  
+    
+      
+}
+.hero-btn:hover{
+    color: blue;
+}
+
+
+
+
+/* TABLET VIEW */
+@media screen and (max-width:900px) {
+
+    .hero{
+        padding: 0 50px;
+        
+    }
+    .text-div{
+        padding: 0 50px;
+        margin-top: 130px;
+        
+    }
+    .welcome{
+        font-size: 40px;
+    }
+    .text-alone{
+        font-size: large;
+    }
+    .hero-btn{
+        font-size: 12px;
+        color: rgb(228, 228, 231);
+    }
+} 
+
+
+
+
+
+
+
+
+
+/* MOBILE VIEW */
+
+@media screen and (max-width:600px) {
+    .hero{
+        padding: 0 40px;
+        width: 100%;
+    }
+    .Fist-hero{
+        width: 100%;
+    }
+    .welcome{
+        font-size: 30px;
+       
+    }
+    .text-div{
+        margin-top: 150px; 
+        padding: 0 40px;
+    }
+    .text-alone{
+        text-align: center;
+        font-size: 19px;
+        margin-top: 80px;
+    }
+    .hero-btn{
+        font-size: 11px;
+        color: rgb(228, 228, 231);
+    }
+}

@@ -1,0 +1,160 @@
+.Contact{
+    display: flex;
+    margin-bottom: 12px;
+    padding: 0 100px;
+    margin-top: 12px;
+    gap: 30px;
+    
+    
+    
+   
+}
+
+.Information{
+    padding:  10px ;
+    width: 50%;
+    box-shadow:1px 1px 2px 2px rgb(141, 160, 151); 
+   
+
+}
+.Message-us{
+    padding:  10px;
+    width: 50%;
+    box-shadow:1px 1px 2px 2px rgb(138, 154, 146);
+    font-size: x-large; 
+    
+}
+.header{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.con-icons{
+color: orange;
+}
+.title{
+font-size: xx-large;
+}
+.follow{
+    text-align: center;
+    font-size: x-large;
+}
+
+.text-input{
+    width: 100%;
+    margin-top: 20px;
+    min-height: 30px;
+}
+
+.email{
+    width: 100%;
+    margin-top: 20px;
+    min-height: 30px;
+}
+
+.Subject{
+    width: 100%;
+    margin-top: 20px;
+    min-height: 30px;
+}
+
+.textarea{
+margin-top: 20px;
+width: 70%;
+}
+
+.send{
+display: block;
+padding: 12px;
+border-radius: 20px;
+background-color: rgb(207, 56, 114);
+color: rgba(247, 244, 244, 0.888);
+margin-top: 12px;
+cursor: pointer;
+}
+
+.website{
+    margin-bottom: 40px;
+}
+
+
+.Icons{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    
+    
+}
+.icon-setup{
+    background-color:black;
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 8px 8px;
+    color: rgb(245, 236, 236);
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+/* Tablet View */
+@media screen and (max-width: 900px) {
+    .Contact{
+        padding: 0 40px;
+        flex-direction: column;
+    }
+    .Information{
+        padding:  10px ;
+        width: 100%;
+        box-shadow:1px 1px 2px 2px rgb(141, 160, 151); 
+    
+    }
+    .Message-us{
+        padding:  10px;
+        width: 100%;
+        box-shadow:1px 1px 2px 2px rgb(138, 154, 146); 
+    }
+    .header{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .icon-setup{
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Mobile View */
+@media screen and (max-width: 600px) {
+    .Contact{
+        padding: 0 40px;
+        flex-direction: column;
+    }
+    .Information{
+        padding:  10px ;
+        width: 100%;
+        box-shadow:1px 1px 2px 2px rgb(141, 160, 151); 
+    
+    }
+    .Message-us{
+        padding:  10px;
+        width: 100%;
+        box-shadow:1px 1px 2px 2px rgb(138, 154, 146); 
+    }
+    .header{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .icon-setup{
+        font-size: 30px;
+    }
+
+
+}
