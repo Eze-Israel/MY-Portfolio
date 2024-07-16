@@ -2,7 +2,7 @@ import "../css/Cv.css"
 
 const Cv = () => {
   return (
-    <div>Cv</div>
+    <div className="CV-DIV">MY CV</div>
   )
 }
 

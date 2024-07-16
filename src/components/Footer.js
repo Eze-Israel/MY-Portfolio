@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="Footer">
       <div className="social">
        <a href="https://linkedin.com/in/israel-eze-ab471a305"  rel="norerrer"> <FaLinkedin />  </a>
-       <a href="about" ><FaLocationArrow /></a>
+       <a href="contact" ><FaLocationArrow /></a>
         <a href="https://github.com/Eze-Israel"><FaGithub /></a>
         <a href="https://wa.me/07061033459" rel="norerrer"> <FaWhatsapp /></a>
         

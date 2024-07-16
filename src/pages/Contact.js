@@ -17,7 +17,7 @@ const Contact = () => {
         <a href="https://wa.me/07061033459" rel="noreferrer"> <FaWhatsapp   className="icon-setup"/></a> </p>
       </div>
       <div className="Message-us">
-      <p className="title">Send Us Message</p>
+      <p className="title">Send Us a Message</p>
                <form action="#" method="get">
                     <input type="text" placeholder="Full name "  className="text-input"></input>
                     {" "}

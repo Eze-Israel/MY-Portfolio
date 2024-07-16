@@ -29,7 +29,7 @@
 
  .transit:hover{
  transform:scale(0,2) ;
- /* width: fit-content; */
+
  
  }
  .btn-div{
@@ -46,6 +46,10 @@
     color: white;
     border-radius: 20px;
     border: none;
+    
+ }
+ .About-btn:hover{
+    background-color: #a05;
     
  }
 
