@@ -98,7 +98,7 @@
 
     .About{
         display: flex;
-        padding: 20px;
+        padding: 45px;
         flex-direction: column;
         gap: 40px;
         align-items: center;
@@ -111,11 +111,12 @@
         object-fit: cover;
         order: 0;
         border-radius: 50%;
+       
         
     }
 
     .About-textDiv{
-        width: fit-content;
+        width: 100%;
         order: 1;
         
     }

@@ -7,7 +7,7 @@ const Contact = () => {
       
       <div className="Information">
         <p className="header">Contact Information</p>
-        <i><FaEnvelope className="con-icons"/> {" " }  Ezeisraeloluoma123@gamail.com</i>
+        <i><FaEnvelope className="con-icons"/> {" " }  Ezeisraeloluoma123@gmail.com</i>
         <p><FaPhone className="con-icons"/> {" " }07061033459</p>
         <p className="website"><FaAddressBook className="con-icons"/> Website@www.EzeIsrael.io {"👋🏻 "}</p>
         <h3 className="follow">CONTACT ME ON</h3>
@@ -17,7 +17,7 @@ const Contact = () => {
         <a href="https://wa.me/07061033459" rel="noreferrer"> <FaWhatsapp   className="icon-setup"/></a> </p>
       </div>
       <div className="Message-us">
-      <p className="title">Send Us a Message</p>
+      <p className="title">Send Me a Message</p>
                <form action="#" method="get">
                     <input type="text" placeholder="Full name "  className="text-input"></input>
                     {" "}

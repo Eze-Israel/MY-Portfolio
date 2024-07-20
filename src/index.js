@@ -33,7 +33,7 @@ const router = createBrowserRouter(
       />
       <Route 
         path='cv'
-        element={<Cv />}
+        element={<Cv  />}
       />
     </Route>
   )
@@ -45,4 +45,8 @@ root.render(
    <RouterProvider router={router}/>
   </React.StrictMode>
 );
+
+
+
+
 

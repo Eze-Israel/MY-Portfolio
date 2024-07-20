@@ -45,14 +45,14 @@
 /* MOBILE VIEW */
 @media screen and (max-width: 600px) {
     .Languages{
-        gap: 50px;
+        gap: 20px;
         justify-content: space-between;
         align-items: center;
-        padding: 0 40px;
+        
        
     }
     .lan-img{
-        width: 90px;
+        width: 80px;
         margin-bottom: 10px;
         
     }

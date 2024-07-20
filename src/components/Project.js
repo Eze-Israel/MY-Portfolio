@@ -3,7 +3,6 @@ import exam1 from "../Images/CBT EXAM PROJ.jpg"
 import exam from "../Images/CBT PROJECT.jpg"
 import  markets from "../Images/Corner-Store-E-commerce.jpg"
 import  markets2 from "../Images/Electronics-Mart-eCommerce.jpg"
-import  markets3 from "../Images/sprystore-website-.jpg"
 import  logistic from "../Images/logistics service.jpg"
 import bank from "../Images/DIGITAL BANK.webp"
 

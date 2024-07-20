@@ -4,16 +4,14 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [bars, setBars] = useState(true)
-  const [mobileState, setMobileState] = useState(false)
+  const [mobile, setMobile] = useState(true)
 
   const handleMobileChange = () => {
-    setBars(!bars)
-    setMobileState(!mobileState)
+    setMobile(!mobile)
     
   }
   const handlelogoname = () => {
-    setBars(bars)
+    setMobile(mobile)
     
   }
   
@@ -24,9 +22,9 @@ const Header = () => {
     <div className="Header">
       <span><Link to="/" className="name" onClick={handlelogoname}> Eze Israel O</Link></span> 
       <div className="mobile-icon" onClick={handleMobileChange}>
-        {bars ? <FaBars /> : <FaTimes />}
+        {mobile ? <FaBars /> : <FaTimes />}
       </div>
-      <ul className={mobileState ? 'nav-menu show' : 'nav-menu'}>
+      <ul className={mobile ? 'nav-menu' : 'nav-menu show'}>
         <li> <Link to="/" className="nav-item" onClick={handleMobileChange}>Home</Link></li>
         <li><Link to="about" className="nav-item" onClick={handleMobileChange}>About</Link></li>
         <li><Link to="contact" className="nav-item" onClick={handleMobileChange}>Contact</Link></li>
