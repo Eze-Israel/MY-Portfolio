@@ -151,6 +151,27 @@ cursor: pointer;
     .Topic:hover{
         font-size: xx-large;
     }
+    .bankservices{
+        display: block;
+        width: 100%;
+    }
+    .CBT{
+        width: 100%;
+    }
+    .first-projects{
+        flex-direction: column;
+    }
+    .second-project{
+        flex-direction: column;
+    }
+    .logistics{
+        width: 100%;
+    }
+    .shopcarts{
+        width: 100%;
+    }
+
+
 }
 
 
@@ -167,5 +188,23 @@ cursor: pointer;
     .Topic:hover{
         font-size: x-large;
     }
-    
+    .bankservices{
+        display: block;
+        width: 100%;
+    }
+    .CBT{
+        width: 100%;
+    }
+    .first-projects{
+        flex-direction: column;
+    }
+    .second-project{
+        flex-direction: column;
+    }
+    .logistics{
+        width: 100%;
+    }
+    .shopcarts{
+        width: 100%;
+    }
 }

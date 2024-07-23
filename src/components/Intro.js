@@ -1,5 +1,6 @@
 import "../css/Intro.css"
 import webintro from "../Images/web-interfaces-portfolio.jpg"
+import { FaWhatsapp } from "react-icons/fa"
 
 const Intro = () => {
   return (
@@ -19,7 +20,7 @@ const Intro = () => {
          it's like having a virtual storefront that always open and welcoming to customers, no matter how they choose to acces it.</p>
          
         <p className="text-plane"> Reach out to me directly on whatsApp today to give your 
-          business optimum visibility accros all devices <a href="https://wa.me/07061033459" rel="norerrer"><button className="last-btn">Click Here👋🏻</button></a></p>
+          business optimum visibility accros all devices <a href="https://wa.me/07061033459" rel="norerrer"> <FaWhatsapp  className="WatsBtn"/></a></p>
       </div>
       
     </div>

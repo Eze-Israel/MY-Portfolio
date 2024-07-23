@@ -23,8 +23,7 @@ const Project = () => {
         <p>Javascript</p>
         <p>React</p>
         <p>Redux</p>
-        <p>Bootstrap</p>
-        <p>J.Query</p>
+        <p>Tailwind</p>
         <p>Firebase</p>
          {" "}
          <a href="#"><button className="BTN">View Demo</button></a>
@@ -39,8 +38,7 @@ const Project = () => {
          <p>Javascript</p>
          <p>React</p>
          <p>Redux</p>
-         <p>Bootstrap</p>
-         <p>J.Query</p>
+         <p>Tailwind</p>
          <p>Firebase</p>
          {" "}
          <a href="#"><button className="BTN">View Demo</button></a>
@@ -59,8 +57,7 @@ const Project = () => {
          <p>Javascript</p>
          <p>React</p>
          <p>Redux</p>
-         <p>Bootstrap</p>
-         <p>J.Query</p>
+         <p>Tailwind</p>
          <p>Firebase</p>
          {" "}
          <a href="#"><button className="BTN">View Demo</button></a>
@@ -76,8 +73,7 @@ const Project = () => {
          <p>Javascript</p>
          <p>React</p>
          <p>Redux</p>
-         <p>Bootstrap</p>
-         <p>J.Query</p>
+         <p>Tailwind</p>
          <p>Firebase</p>
          {" "}
          <a href="#"><button class="BTN">View Demo</button></a>

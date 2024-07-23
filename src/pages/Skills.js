@@ -11,18 +11,10 @@ const Skills = () => {
 <div className="write">
    <h1>.Technical Skills:</h1>
    {" "}
-   <h2>-Networking:</h2>
-   {" "}
-   <p>Understanding networks, protocols, and security principles.</p>
-   {" "}
-   <h2>-Operating Systems:</h2>
-   {" "}
-   <p>Proficiency with Windows,Linux, Mac OS</p>
-   {" "}
    <h2>-Programming:</h2>
    {" "}
-   <p> Familiarity with React.Js,Javascript,
-     Bootstrap,CSS3,JQuery,Redux,Html:5 and Firebase. </p>
+   <h4> Familiarity with React.Js,Javascript,
+     tailwind, CSS3,JQuery,Redux,Html:5 and Firebase. </h4>
      {" "}
    <h1>.Soft Skills:</h1>
    {" "}

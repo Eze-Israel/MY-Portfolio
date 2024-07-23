@@ -1,14 +1,14 @@
 .About{
     display: flex;
     gap: 30px;
-    padding: 50px 50px;
+    padding: 50px 100px;
     background-color: rgb(243, 238, 238);
     width: 100%;
     
 }
 .About-Pix{
     width: 50%;
-    object-fit: cover;
+    height: 50%;
     border-radius: 50%;
     order: 1;
 }
