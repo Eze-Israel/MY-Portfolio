@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84df2a98.css",
+    "main.js": "/static/js/main.05e4ade8.js",
+    "static/media/ISRAEL_RESUME.pdf": "/static/media/ISRAEL_RESUME.721833ae4e7cef700bda.pdf",
+    "static/media/DIGITAL BANK.webp": "/static/media/DIGITAL BANK.8f79fcd618cbbea0a9d3.webp",
+    "static/media/king photo (2).jpg": "/static/media/king photo (2).fc5c84b6591b09c93cbc.jpg",
+    "static/media/Electronics-Mart-eCommerce.jpg": "/static/media/Electronics-Mart-eCommerce.4338b38b10d0003ef4bf.jpg",
+    "static/media/Corner-Store-E-commerce.jpg": "/static/media/Corner-Store-E-commerce.f0ab1da09459f2204696.jpg",
+    "static/media/web-interfaces-portfolio.jpg": "/static/media/web-interfaces-portfolio.3fc6a91a957752d97f31.jpg",
+    "index.html": "/index.html",
+    "main.84df2a98.css.map": "/static/css/main.84df2a98.css.map",
+    "main.05e4ade8.js.map": "/static/js/main.05e4ade8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84df2a98.css",
+    "static/js/main.05e4ade8.js"
+  ]
+}
